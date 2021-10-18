@@ -25,7 +25,7 @@ public Plugin myinfo = {
 // clang-format on
 
 public void Multi1v1_OnRoundTypesAdded() {
-  Multi1v1_AddRoundType("Knife", "knife", KnifeHandler, true, false, "", true);
+  Multi1v1_AddRoundType("★刀战", "knife", KnifeHandler, true, false, "", true);
 }
 
 public void KnifeHandler(int client) {
