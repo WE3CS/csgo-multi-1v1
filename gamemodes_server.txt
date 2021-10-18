@@ -1,0 +1,2163 @@
+"GameModes_Server.txt"
+{
+    "gameTypes"
+    {
+        "classic"
+        {
+            "gameModes"
+            {
+                "casual"
+                {
+                    "maxplayers"        "20"
+                }
+                "competitive"
+                {
+                    "maxplayers"        "(null)"
+                    "exec"
+                    {
+                        "exec"        "co_custom_convar.cfg"
+                    }
+                    "mapgroupsMP"
+                    {
+                        "am_maps"        ""
+                    }
+                }
+            }
+        }
+        "gungame"
+        {
+            "gameModes"
+            {
+                "gungameprogressive"
+                {
+                    "maxplayers"        "20"
+                }
+                "gungametrbomb"
+                {
+                    "maxplayers"        "20"
+                }
+            }
+        }
+    }
+    "mapgroups"
+    {
+        "am_maps"
+        {
+            "imagename"        "mapgroup-custom1"
+            "nameID"        "#SFUI_Mapgroup_am_maps"
+            "name"        "am_maps"
+            "maps"
+            {
+                "am_banana"        ""
+                "am_cubes"        ""
+                "am_grass2"        ""
+                "am_dust2_cat"        ""
+                "am_dust2014"        ""
+                "am_must2"        ""
+                "am_ruby"        ""
+                "am_courtyard"        ""
+                "am_travesty32"        ""
+            }
+        }
+    }
+    "maps"
+    {
+        "am_banana"
+        {
+            "nameID"        "#SFUI_Map_am_banana"
+            "name"        "am_banana"
+            "imagename"        "map-custom1-overall"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_phoenix"        ""
+                "tm_phoenix_variantA"        ""
+                "tm_phoenix_variantB"        ""
+                "tm_phoenix_variantC"        ""
+                "tm_phoenix_variantD"        ""
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+                "ctm_st6_variantA"        ""
+                "ctm_st6_variantB"        ""
+                "ctm_st6_variantC"        ""
+                "ctm_st6_variantD"        ""
+            }
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+        }
+        "am_cubes"
+        {
+            "nameID"        "#SFUI_Map_am_cubes"
+            "name"        "am_cubes"
+            "imagename"        "map-custom2-overall"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_phoenix"        ""
+                "tm_phoenix_variantA"        ""
+                "tm_phoenix_variantB"        ""
+                "tm_phoenix_variantC"        ""
+                "tm_phoenix_variantD"        ""
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+                "ctm_st6_variantA"        ""
+                "ctm_st6_variantB"        ""
+                "ctm_st6_variantC"        ""
+                "ctm_st6_variantD"        ""
+            }
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+        }
+        "am_dust2_cat"
+        {
+            "nameID"        "#SFUI_Map_am_dust2_cat"
+            "name"        "am_dust2_cat"
+            "imagename"        "map-custom3-overall"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_phoenix"        ""
+                "tm_phoenix_variantA"        ""
+                "tm_phoenix_variantB"        ""
+                "tm_phoenix_variantC"        ""
+                "tm_phoenix_variantD"        ""
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+                "ctm_st6_variantA"        ""
+                "ctm_st6_variantB"        ""
+                "ctm_st6_variantC"        ""
+                "ctm_st6_variantD"        ""
+            }
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+        }
+        "am_grass2"
+        {
+            "nameID"        "#SFUI_Map_am_grass2"
+            "name"        "am_grass2"
+            "imagename"        "map-custom4-overall"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_phoenix"        ""
+                "tm_phoenix_variantA"        ""
+                "tm_phoenix_variantB"        ""
+                "tm_phoenix_variantC"        ""
+                "tm_phoenix_variantD"        ""
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+                "ctm_st6_variantA"        ""
+                "ctm_st6_variantB"        ""
+                "ctm_st6_variantC"        ""
+                "ctm_st6_variantD"        ""
+            }
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+        }
+        "am_dust2014"
+        {
+            "nameID"        "#SFUI_Map_am_dust2014"
+            "name"        "am_dust2014"
+            "imagename"        "map-custom5-overall"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_phoenix"        ""
+                "tm_phoenix_variantA"        ""
+                "tm_phoenix_variantB"        ""
+                "tm_phoenix_variantC"        ""
+                "tm_phoenix_variantD"        ""
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+                "ctm_st6_variantA"        ""
+                "ctm_st6_variantB"        ""
+                "ctm_st6_variantC"        ""
+                "ctm_st6_variantD"        ""
+            }
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+        }
+        "am_must2"
+        {
+            "nameID"        "#SFUI_Map_am_must2"
+            "name"        "am_must2"
+            "imagename"        "map-custom6-overall"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_phoenix"        ""
+                "tm_phoenix_variantA"        ""
+                "tm_phoenix_variantB"        ""
+                "tm_phoenix_variantC"        ""
+                "tm_phoenix_variantD"        ""
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+                "ctm_st6_variantA"        ""
+                "ctm_st6_variantB"        ""
+                "ctm_st6_variantC"        ""
+                "ctm_st6_variantD"        ""
+            }
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+        }
+        "am_sewage"
+        {
+            "nameID"        "#SFUI_Map_am_sewage"
+            "name"        "am_sewage"
+            "imagename"        "map-custom7-overall"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_phoenix"        ""
+                "tm_phoenix_variantA"        ""
+                "tm_phoenix_variantB"        ""
+                "tm_phoenix_variantC"        ""
+                "tm_phoenix_variantD"        ""
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+                "ctm_st6_variantA"        ""
+                "ctm_st6_variantB"        ""
+                "ctm_st6_variantC"        ""
+                "ctm_st6_variantD"        ""
+            }
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+        }
+        "am_courtyard"
+        {
+            "name"        "am_courtyard"
+            "nameID"        ""
+            "imagename"        ""
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "ar_lunacy"
+        {
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_fbi.mdl"
+                "ct_models"
+                {
+                    "ctm_fbi"        ""
+                    "ctm_fbi_variantA"        ""
+                    "ctm_fbi_variantE"        ""
+                    "ctm_fbi_variantC"        ""
+                    "ctm_fbi_variantD"        ""
+                }
+            }
+            "name"        "ar_lunacy"
+            "nameID"        "#SFUI_Map_ar_lunacy"
+            "imagename"        "map-lunacy-overall"
+            "default_game_type"        "1"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "ar_dizzy"
+        {
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_professional.mdl"
+                "t_models"
+                {
+                    "tm_professional"        ""
+                    "tm_professional_var1"        ""
+                    "tm_professional_var2"        ""
+                    "tm_professional_var3"        ""
+                    "tm_professional_var4"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_swat.mdl"
+                "ct_models"
+                {
+                    "ctm_swat"        ""
+                    "ctm_swat_variantA"        ""
+                    "ctm_swat_variantB"        ""
+                    "ctm_swat_variantC"        ""
+                    "ctm_swat_variantD"        ""
+                }
+            }
+            "name"        "ar_dizzy"
+            "nameID"        "#SFUI_Map_ar_dizzy"
+            "imagename"        "map-dizzy-overall"
+            "default_game_type"        "1"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "dz_sirocco"
+        {
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_jumpsuit_varianta"        ""
+                    "tm_jumpsuit_variantb"        ""
+                    "tm_jumpsuit_variantc"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_st6.mdl"
+                "ct_models"
+                {
+                    "ctm_st6"        ""
+                    "ctm_st6_variantA"        ""
+                    "ctm_st6_variantB"        ""
+                    "ctm_st6_variantC"        ""
+                    "ctm_st6_variantD"        ""
+                }
+            }
+            "name"        "dz_sirocco"
+            "nameID"        "#SFUI_Map_dz_sirocco"
+            "imagename"        "map-dz_sirocco-overall"
+            "default_game_type"        "6"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "cs_militia"
+        {
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_fbi.mdl"
+                "ct_models"
+                {
+                    "ctm_fbi_variantA"        ""
+                    "ctm_fbi_variantE"        ""
+                    "ctm_fbi_variantC"        ""
+                    "ctm_fbi_variantD"        ""
+                }
+            }
+            "name"        "cs_militia"
+            "nameID"        "#SFUI_Map_cs_militia"
+            "imagename"        "map-militia-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "am_ruby"
+        {
+            "name"        "am_ruby"
+            "nameID"        ""
+            "imagename"        ""
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "dz_blacksite"
+        {
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_jumpsuit_varianta"        ""
+                    "tm_jumpsuit_variantb"        ""
+                    "tm_jumpsuit_variantc"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_st6.mdl"
+                "ct_models"
+                {
+                    "ctm_st6"        ""
+                    "ctm_st6_variantA"        ""
+                    "ctm_st6_variantB"        ""
+                    "ctm_st6_variantC"        ""
+                    "ctm_st6_variantD"        ""
+                }
+            }
+            "name"        "dz_blacksite"
+            "nameID"        "#SFUI_Map_dz_blacksite"
+            "imagename"        "map-blacksite-overall"
+            "default_game_type"        "6"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "am_travesty32"
+        {
+            "name"        "am_travesty32"
+            "nameID"        ""
+            "imagename"        ""
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "de_cbble"
+        {
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_gign.mdl"
+                "ct_models"
+                {
+                    "ctm_gign"        ""
+                    "ctm_gign_variantA"        ""
+                    "ctm_gign_variantB"        ""
+                    "ctm_gign_variantC"        ""
+                    "ctm_gign_variantD"        ""
+                }
+            }
+            "name"        "de_cbble"
+            "nameID"        "#SFUI_Map_de_cbble"
+            "imagename"        "map-cbble-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "de_anubis"
+        {
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms.mdl"
+                "t_models"
+                {
+                    "tm_leet_variantA"        ""
+                    "tm_leet_variantB"        ""
+                    "tm_leet_variantC"        ""
+                    "tm_leet_variantD"        ""
+                    "tm_leet_variantE"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_gign.mdl"
+                "ct_models"
+                {
+                    "ctm_gign"        ""
+                    "ctm_gign_variantA"        ""
+                    "ctm_gign_variantB"        ""
+                    "ctm_gign_variantC"        ""
+                    "ctm_gign_variantD"        ""
+                }
+            }
+            "name"        "de_anubis"
+            "nameID"        "#SFUI_Map_de_anubis"
+            "imagename"        "map-anubis-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "de_safehouse"
+        {
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_professional.mdl"
+                "t_models"
+                {
+                    "tm_professional"        ""
+                    "tm_professional_var1"        ""
+                    "tm_professional_var2"        ""
+                    "tm_professional_var3"        ""
+                    "tm_professional_var4"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_swat.mdl"
+                "ct_models"
+                {
+                    "ctm_swat"        ""
+                    "ctm_swat_variantA"        ""
+                    "ctm_swat_variantB"        ""
+                    "ctm_swat_variantC"        ""
+                    "ctm_swat_variantD"        ""
+                }
+            }
+            "name"        "de_safehouse"
+            "nameID"        "#SFUI_Map_de_safehouse"
+            "imagename"        "map-house-overall"
+            "default_game_type"        "1"
+            "default_game_mode"        "1"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "de_sugarcane"
+        {
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_pirate.mdl"
+                "t_models"
+                {
+                    "tm_pirate"        ""
+                    "tm_pirate_variantA"        ""
+                    "tm_pirate_variantC"        ""
+                    "tm_pirate_variantD"        ""
+                    "tm_pirate_variantB"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_gign.mdl"
+                "ct_models"
+                {
+                    "ctm_gign"        ""
+                    "ctm_gign_variantA"        ""
+                    "ctm_gign_variantB"        ""
+                    "ctm_gign_variantC"        ""
+                    "ctm_gign_variantD"        ""
+                }
+            }
+            "name"        "de_sugarcane"
+            "nameID"        "#SFUI_Map_de_sugarcane"
+            "imagename"        "map-mill-overall"
+            "default_game_type"        "1"
+            "default_game_mode"        "1"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "cs_office"
+        {
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_anarchist.mdl"
+                "t_models"
+                {
+                    "tm_anarchist"        ""
+                    "tm_anarchist_variantA"        ""
+                    "tm_anarchist_variantb"        ""
+                    "tm_anarchist_variantc"        ""
+                    "tm_anarchist_variantd"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_fbi.mdl"
+                "ct_models"
+                {
+                    "ctm_fbi"        ""
+                    "ctm_fbi_variantA"        ""
+                    "ctm_fbi_variantE"        ""
+                    "ctm_fbi_variantC"        ""
+                    "ctm_fbi_variantD"        ""
+                }
+            }
+            "name"        "cs_office"
+            "nameID"        "#SFUI_Map_cs_office"
+            "imagename"        "map-office-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "de_cache"
+        {
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_gign.mdl"
+                "ct_models"
+                {
+                    "ctm_gign"        ""
+                    "ctm_gign_variantA"        ""
+                    "ctm_gign_variantB"        ""
+                    "ctm_gign_variantC"        ""
+                    "ctm_gign_variantD"        ""
+                }
+            }
+            "name"        "de_cache"
+            "nameID"        "#SFUI_Map_de_cache"
+            "imagename"        "map-cache-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "de_train"
+        {
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_balkan.mdl"
+                "t_models"
+                {
+                    "tm_balkan_variantA"        ""
+                    "tm_balkan_variantB"        ""
+                    "tm_balkan_variantC"        ""
+                    "tm_balkan_variantD"        ""
+                    "tm_balkan_variantE"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_st6.mdl"
+                "ct_models"
+                {
+                    "ctm_st6"        ""
+                    "ctm_st6_variantA"        ""
+                    "ctm_st6_variantB"        ""
+                    "ctm_st6_variantC"        ""
+                    "ctm_st6_variantD"        ""
+                }
+            }
+            "name"        "de_train"
+            "nameID"        "#SFUI_Map_de_train"
+            "imagename"        "map-train-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "de_dust2"
+        {
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms.mdl"
+                "t_models"
+                {
+                    "tm_leet_variantA"        ""
+                    "tm_leet_variantB"        ""
+                    "tm_leet_variantC"        ""
+                    "tm_leet_variantD"        ""
+                    "tm_leet_variantE"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_idf.mdl"
+                "ct_models"
+                {
+                    "ctm_idf"        ""
+                    "ctm_idf_variantB"        ""
+                    "ctm_idf_variantC"        ""
+                    "ctm_idf_variantD"        ""
+                    "ctm_idf_variantE"        ""
+                }
+            }
+            "name"        "de_dust2"
+            "nameID"        "#SFUI_Map_de_dust2"
+            "imagename"        "map-dust2-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "de_canals"
+        {
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_st6.mdl"
+                "ct_models"
+                {
+                    "ctm_st6"        ""
+                    "ctm_st6_variantA"        ""
+                    "ctm_st6_variantB"        ""
+                    "ctm_st6_variantC"        ""
+                    "ctm_st6_variantD"        ""
+                }
+            }
+            "name"        "de_canals"
+            "nameID"        "#SFUI_Map_de_canals"
+            "imagename"        "map-canals-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "de_nuke"
+        {
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_fbi.mdl"
+                "ct_models"
+                {
+                    "ctm_fbi"        ""
+                    "ctm_fbi_variantA"        ""
+                    "ctm_fbi_variantE"        ""
+                    "ctm_fbi_variantC"        ""
+                    "ctm_fbi_variantD"        ""
+                }
+            }
+            "name"        "de_nuke"
+            "nameID"        "#SFUI_Map_de_nuke"
+            "imagename"        "map-nuke-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "coop_kasbah"
+        {
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_st6.mdl"
+                "ct_models"
+                {
+                    "ctm_st6"        ""
+                    "ctm_st6_variantA"        ""
+                    "ctm_st6_variantB"        ""
+                    "ctm_st6_variantC"        ""
+                    "ctm_st6_variantD"        ""
+                }
+            }
+            "name"        "coop_kasbah"
+            "nameID"        "#SFUI_Map_coop_kasbah"
+            "imagename"        "map-dz_sirocco-overall"
+            "default_game_type"        "4"
+            "default_game_mode"        "1"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "de_stmarc"
+        {
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_pirate.mdl"
+                "t_models"
+                {
+                    "tm_pirate"        ""
+                    "tm_pirate_variantA"        ""
+                    "tm_pirate_variantC"        ""
+                    "tm_pirate_variantD"        ""
+                    "tm_pirate_variantB"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_gign.mdl"
+                "ct_models"
+                {
+                    "ctm_gign"        ""
+                    "ctm_gign_variantA"        ""
+                    "ctm_gign_variantB"        ""
+                    "ctm_gign_variantC"        ""
+                    "ctm_gign_variantD"        ""
+                }
+            }
+            "name"        "de_stmarc"
+            "nameID"        "#SFUI_Map_de_stmarc"
+            "imagename"        "map-shacks-overall"
+            "default_game_type"        "1"
+            "default_game_mode"        "1"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "training1"
+        {
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_st6.mdl"
+                "ct_models"
+                {
+                    "ctm_st6"        ""
+                }
+            }
+            "name"        "training1"
+            "nameID"        "#SFUI_Map_training1"
+            "imagename"        "map-alleyway-overall"
+            "default_game_type"        "2"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "cs_italy"
+        {
+            "name"        "cs_italy"
+            "nameID"        "#SFUI_Map_cs_italy"
+            "imagename"        "map-italy-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_separatist.mdl"
+                "t_models"
+                {
+                    "tm_separatist"        ""
+                    "tm_separatist_variantA"        ""
+                    "tm_separatist_variantB"        ""
+                    "tm_separatist_variantC"        ""
+                    "tm_separatist_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_gign.mdl"
+                "ct_models"
+                {
+                    "ctm_gign"        ""
+                    "ctm_gign_variantA"        ""
+                    "ctm_gign_variantB"        ""
+                    "ctm_gign_variantC"        ""
+                    "ctm_gign_variantD"        ""
+                }
+            }
+        }
+        "ar_monastery"
+        {
+            "name"        "ar_monastery"
+            "nameID"        "#SFUI_Map_ar_monastery"
+            "imagename"        "map-tibet-overall"
+            "default_game_type"        "1"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_balkan.mdl"
+                "t_models"
+                {
+                    "tm_balkan_variantA"        ""
+                    "tm_balkan_variantB"        ""
+                    "tm_balkan_variantC"        ""
+                    "tm_balkan_variantD"        ""
+                    "tm_balkan_variantE"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_gsg9.mdl"
+                "ct_models"
+                {
+                    "ctm_gsg9"        ""
+                    "ctm_gsg9_variantA"        ""
+                    "ctm_gsg9_variantB"        ""
+                    "ctm_gsg9_variantC"        ""
+                    "ctm_gsg9_variantD"        ""
+                }
+            }
+        }
+        "de_overpass"
+        {
+            "name"        "de_overpass"
+            "nameID"        "#SFUI_Map_de_overpass"
+            "imagename"        "map-overpass-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_gsg9.mdl"
+                "ct_models"
+                {
+                    "ctm_gsg9"        ""
+                    "ctm_gsg9_variantA"        ""
+                    "ctm_gsg9_variantB"        ""
+                    "ctm_gsg9_variantC"        ""
+                    "ctm_gsg9_variantD"        ""
+                }
+            }
+        }
+        "gd_cbble"
+        {
+            "name"        "gd_cbble"
+            "nameID"        "#SFUI_Map_gd_cbble"
+            "imagename"        "map-cbble-overall"
+            "default_game_type"        "4"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_gign.mdl"
+                "ct_models"
+                {
+                    "ctm_gign"        ""
+                    "ctm_gign_variantA"        ""
+                    "ctm_gign_variantB"        ""
+                    "ctm_gign_variantC"        ""
+                    "ctm_gign_variantD"        ""
+                }
+            }
+        }
+        "cs_agency"
+        {
+            "name"        "cs_agency"
+            "nameID"        "#SFUI_Map_cs_agency"
+            "imagename"        "map-agency-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_professional.mdl"
+                "t_models"
+                {
+                    "tm_professional"        ""
+                    "tm_professional_var1"        ""
+                    "tm_professional_var2"        ""
+                    "tm_professional_var3"        ""
+                    "tm_professional_var4"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_fbi.mdl"
+                "ct_models"
+                {
+                    "ctm_fbi"        ""
+                    "ctm_fbi_variantA"        ""
+                    "ctm_fbi_variantE"        ""
+                    "ctm_fbi_variantC"        ""
+                    "ctm_fbi_variantD"        ""
+                }
+            }
+        }
+        "ar_shoots"
+        {
+            "name"        "ar_shoots"
+            "nameID"        "#SFUI_Map_ar_shoots"
+            "imagename"        "map-vietnam-overall"
+            "default_game_type"        "1"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_pirate.mdl"
+                "t_models"
+                {
+                    "tm_pirate"        ""
+                    "tm_pirate_variantA"        ""
+                    "tm_pirate_variantC"        ""
+                    "tm_pirate_variantD"        ""
+                    "tm_pirate_variantB"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_gign.mdl"
+                "ct_models"
+                {
+                    "ctm_gign"        ""
+                    "ctm_gign_variantA"        ""
+                    "ctm_gign_variantB"        ""
+                    "ctm_gign_variantC"        ""
+                    "ctm_gign_variantD"        ""
+                }
+            }
+        }
+        "de_shortdust"
+        {
+            "name"        "de_shortdust"
+            "nameID"        "#SFUI_Map_de_shortdust"
+            "imagename"        "map-dust-overall"
+            "default_game_type"        "1"
+            "default_game_mode"        "1"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms.mdl"
+                "t_models"
+                {
+                    "tm_leet_variantA"        ""
+                    "tm_leet_variantB"        ""
+                    "tm_leet_variantC"        ""
+                    "tm_leet_variantD"        ""
+                    "tm_leet_variantE"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_idf.mdl"
+                "ct_models"
+                {
+                    "ctm_idf"        ""
+                    "ctm_idf_variantB"        ""
+                    "ctm_idf_variantC"        ""
+                    "ctm_idf_variantD"        ""
+                    "ctm_idf_variantE"        ""
+                }
+            }
+        }
+        "de_shortnuke"
+        {
+            "name"        "de_shortnuke"
+            "nameID"        "#SFUI_Map_de_nuke"
+            "imagename"        "map-nuke-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_fbi.mdl"
+                "ct_models"
+                {
+                    "ctm_fbi"        ""
+                    "ctm_fbi_variantA"        ""
+                    "ctm_fbi_variantE"        ""
+                    "ctm_fbi_variantC"        ""
+                    "ctm_fbi_variantD"        ""
+                }
+            }
+        }
+        "de_mutiny"
+        {
+            "name"        "de_mutiny"
+            "nameID"        "#SFUI_Map_de_mutiny"
+            "imagename"        "map-mutiny-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_pirate.mdl"
+                "t_models"
+                {
+                    "tm_pirate"        ""
+                    "tm_pirate_variantA"        ""
+                    "tm_pirate_variantC"        ""
+                    "tm_pirate_variantD"        ""
+                    "tm_pirate_variantB"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_fbi.mdl"
+                "ct_models"
+                {
+                    "ctm_fbi"        ""
+                    "ctm_fbi_variantA"        ""
+                    "ctm_fbi_variantE"        ""
+                    "ctm_fbi_variantC"        ""
+                    "ctm_fbi_variantD"        ""
+                }
+            }
+        }
+        "de_lake"
+        {
+            "name"        "de_lake"
+            "nameID"        "#SFUI_Map_de_lake"
+            "imagename"        "map-boathouse-overall"
+            "default_game_type"        "1"
+            "default_game_mode"        "1"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_st6.mdl"
+                "ct_models"
+                {
+                    "ctm_st6"        ""
+                    "ctm_st6_variantA"        ""
+                    "ctm_st6_variantB"        ""
+                    "ctm_st6_variantC"        ""
+                    "ctm_st6_variantD"        ""
+                }
+            }
+        }
+        "ar_baggage"
+        {
+            "name"        "ar_baggage"
+            "nameID"        "#SFUI_Map_ar_baggage"
+            "imagename"        "map-baggage-overall"
+            "default_game_type"        "1"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_gsg9.mdl"
+                "ct_models"
+                {
+                    "ctm_gsg9"        ""
+                    "ctm_gsg9_variantA"        ""
+                    "ctm_gsg9_variantB"        ""
+                    "ctm_gsg9_variantC"        ""
+                    "ctm_gsg9_variantD"        ""
+                }
+            }
+        }
+        "gd_rialto"
+        {
+            "name"        "gd_rialto"
+            "nameID"        "#SFUI_Map_gd_rialto"
+            "imagename"        "map-rialto-overall"
+            "default_game_type"        "4"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_professional.mdl"
+                "t_models"
+                {
+                    "tm_professional"        ""
+                    "tm_professional_var1"        ""
+                    "tm_professional_var2"        ""
+                    "tm_professional_var3"        ""
+                    "tm_professional_var4"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_swat.mdl"
+                "ct_models"
+                {
+                    "ctm_swat"        ""
+                    "ctm_swat_variantA"        ""
+                    "ctm_swat_variantB"        ""
+                    "ctm_swat_variantC"        ""
+                    "ctm_swat_variantD"        ""
+                }
+            }
+        }
+        "de_mirage"
+        {
+            "name"        "de_mirage"
+            "nameID"        "#SFUI_Map_de_mirage"
+            "imagename"        "map-mirage-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_leet.mdl"
+                "t_models"
+                {
+                    "tm_leet_variantA"        ""
+                    "tm_leet_variantB"        ""
+                    "tm_leet_variantC"        ""
+                    "tm_leet_variantD"        ""
+                    "tm_leet_variantE"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_sas.mdl"
+                "ct_models"
+                {
+                    "ctm_sas"        ""
+                    "ctm_sas_variantA"        ""
+                    "ctm_sas_variantB"        ""
+                    "ctm_sas_variantC"        ""
+                    "ctm_sas_variantD"        ""
+                }
+            }
+        }
+        "de_bank"
+        {
+            "name"        "de_bank"
+            "nameID"        "#SFUI_Map_de_bank"
+            "imagename"        "map-bank-overall"
+            "default_game_type"        "1"
+            "default_game_mode"        "1"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_professional.mdl"
+                "t_models"
+                {
+                    "tm_professional"        ""
+                    "tm_professional_var1"        ""
+                    "tm_professional_var2"        ""
+                    "tm_professional_var3"        ""
+                    "tm_professional_var4"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_swat.mdl"
+                "ct_models"
+                {
+                    "ctm_swat"        ""
+                    "ctm_swat_variantA"        ""
+                    "ctm_swat_variantB"        ""
+                    "ctm_swat_variantC"        ""
+                    "ctm_swat_variantD"        ""
+                }
+            }
+        }
+        "de_swamp"
+        {
+            "name"        "de_swamp"
+            "nameID"        "#SFUI_Map_de_swamp"
+            "imagename"        "map-swamp-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_fbi.mdl"
+                "ct_models"
+                {
+                    "ctm_fbi"        ""
+                    "ctm_fbi_variantA"        ""
+                    "ctm_fbi_variantE"        ""
+                    "ctm_fbi_variantC"        ""
+                    "ctm_fbi_variantD"        ""
+                }
+            }
+        }
+        "cs_assault"
+        {
+            "name"        "cs_assault"
+            "nameID"        "#SFUI_Map_cs_assault"
+            "imagename"        "map-assault-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_fbi.mdl"
+                "ct_models"
+                {
+                    "ctm_fbi"        ""
+                    "ctm_fbi_variantA"        ""
+                    "ctm_fbi_variantE"        ""
+                    "ctm_fbi_variantC"        ""
+                    "ctm_fbi_variantD"        ""
+                }
+            }
+        }
+        "de_vertigo"
+        {
+            "name"        "de_vertigo"
+            "nameID"        "#SFUI_Map_de_vertigo"
+            "imagename"        "map-vertigo-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_professional.mdl"
+                "t_models"
+                {
+                    "tm_professional"        ""
+                    "tm_professional_var1"        ""
+                    "tm_professional_var2"        ""
+                    "tm_professional_var3"        ""
+                    "tm_professional_var4"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_fbi.mdl"
+                "ct_models"
+                {
+                    "ctm_fbi"        ""
+                    "ctm_fbi_variantA"        ""
+                    "ctm_fbi_variantE"        ""
+                    "ctm_fbi_variantC"        ""
+                    "ctm_fbi_variantD"        ""
+                }
+            }
+        }
+        "de_inferno"
+        {
+            "name"        "de_inferno"
+            "nameID"        "#SFUI_Map_de_inferno"
+            "imagename"        "map-inferno-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_separatist.mdl"
+                "t_models"
+                {
+                    "tm_separatist"        ""
+                    "tm_separatist_variantA"        ""
+                    "tm_separatist_variantB"        ""
+                    "tm_separatist_variantC"        ""
+                    "tm_separatist_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_sas.mdl"
+                "ct_models"
+                {
+                    "ctm_sas"        ""
+                    "ctm_sas_variantA"        ""
+                    "ctm_sas_variantB"        ""
+                    "ctm_sas_variantC"        ""
+                    "ctm_sas_variantD"        ""
+                }
+            }
+        }
+        "de_guard"
+        {
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_fbi.mdl"
+                "ct_models"
+                {
+                    "ctm_fbi"        ""
+                    "ctm_fbi_variantA"        ""
+                    "ctm_fbi_variantE"        ""
+                    "ctm_fbi_variantC"        ""
+                    "ctm_fbi_variantD"        ""
+                }
+            }
+            "name"        "de_guard"
+            "nameID"        "#SFUI_Map_de_guard"
+            "imagename"        "map-guard-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "de_ancient"
+        {
+            "name"        "de_ancient"
+            "nameID"        "#SFUI_Map_de_ancient"
+            "imagename"        "map-ancient-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms.mdl"
+                "t_models"
+                {
+                    "tm_leet_variantA"        ""
+                    "tm_leet_variantB"        ""
+                    "tm_leet_variantC"        ""
+                    "tm_leet_variantD"        ""
+                    "tm_leet_variantE"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_gign.mdl"
+                "ct_models"
+                {
+                    "ctm_gign"        ""
+                    "ctm_gign_variantA"        ""
+                    "ctm_gign_variantB"        ""
+                    "ctm_gign_variantC"        ""
+                    "ctm_gign_variantD"        ""
+                }
+            }
+        }
+        "lobby_mapveto"
+        {
+            "name"        "lobby_mapveto"
+            "nameID"        "#SFUI_Map_lobby_mapveto"
+            "imagename"        "map-lobby-mapveto-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_fbi.mdl"
+                "ct_models"
+                {
+                    "ctm_fbi"        ""
+                    "ctm_fbi_variantA"        ""
+                    "ctm_fbi_variantE"        ""
+                    "ctm_fbi_variantC"        ""
+                    "ctm_fbi_variantD"        ""
+                }
+            }
+        }
+        "de_elysion"
+        {
+            "name"        "de_elysion"
+            "nameID"        "#SFUI_Map_de_elysion"
+            "imagename"        "map-elysion-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_fbi.mdl"
+                "ct_models"
+                {
+                    "ctm_fbi"        ""
+                    "ctm_fbi_variantA"        ""
+                    "ctm_fbi_variantE"        ""
+                    "ctm_fbi_variantC"        ""
+                    "ctm_fbi_variantD"        ""
+                }
+            }
+        }
+        "de_engage"
+        {
+            "name"        "de_engage"
+            "nameID"        "#SFUI_Map_de_engage"
+            "imagename"        "map-engage-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_fbi.mdl"
+                "ct_models"
+                {
+                    "ctm_fbi"        ""
+                    "ctm_fbi_variantA"        ""
+                    "ctm_fbi_variantE"        ""
+                    "ctm_fbi_variantC"        ""
+                    "ctm_fbi_variantD"        ""
+                }
+            }
+        }
+        "cs_apollo"
+        {
+            "name"        "cs_apollo"
+            "nameID"        "#SFUI_Map_cs_apollo"
+            "imagename"        "map-apollo-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_fbi.mdl"
+                "ct_models"
+                {
+                    "ctm_fbi"        ""
+                    "ctm_fbi_variantA"        ""
+                    "ctm_fbi_variantE"        ""
+                    "ctm_fbi_variantC"        ""
+                    "ctm_fbi_variantD"        ""
+                }
+            }
+        }
+        "coop_autumn"
+        {
+            "name"        "coop_autumn"
+            "nameID"        "#SFUI_Map_coop_autumn"
+            "imagename"        "map-dz_sirocco-overall"
+            "default_game_type"        "4"
+            "default_game_mode"        "1"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_st6.mdl"
+                "ct_models"
+                {
+                    "ctm_st6"        ""
+                    "ctm_st6_variantA"        ""
+                    "ctm_st6_variantB"        ""
+                    "ctm_st6_variantC"        ""
+                    "ctm_st6_variantD"        ""
+                }
+            }
+        }
+        "dz_frostbite"
+        {
+            "name"        "dz_frostbite"
+            "nameID"        "#SFUI_Map_dz_frostbite"
+            "imagename"        "map-dz_frostbite-overall"
+            "default_game_type"        "6"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_jumpsuit_varianta"        ""
+                    "tm_jumpsuit_variantb"        ""
+                    "tm_jumpsuit_variantc"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_st6.mdl"
+                "ct_models"
+                {
+                    "ctm_st6"        ""
+                    "ctm_st6_variantA"        ""
+                    "ctm_st6_variantB"        ""
+                    "ctm_st6_variantC"        ""
+                    "ctm_st6_variantD"        ""
+                }
+            }
+        }
+        "coop_fall"
+        {
+            "name"        "coop_fall"
+            "nameID"        "#SFUI_Map_coop_fall"
+            "imagename"        "map-dz_sirocco-overall"
+            "default_game_type"        "4"
+            "default_game_mode"        "1"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms_phoenix.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_st6.mdl"
+                "ct_models"
+                {
+                    "ctm_st6"        ""
+                    "ctm_st6_variantA"        ""
+                    "ctm_st6_variantB"        ""
+                    "ctm_st6_variantC"        ""
+                    "ctm_st6_variantD"        ""
+                }
+            }
+        }
+        "de_mocha"
+        {
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_fbi.mdl"
+                "ct_models"
+                {
+                    "ctm_fbi"        ""
+                    "ctm_fbi_variantA"        ""
+                    "ctm_fbi_variantE"        ""
+                    "ctm_fbi_variantC"        ""
+                    "ctm_fbi_variantD"        ""
+                }
+            }
+            "name"        "de_mocha"
+            "nameID"        "#SFUI_Map_de_mocha"
+            "imagename"        "map-mocha-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "de_pitstop"
+        {
+            "name"        "de_pitstop"
+            "nameID"        ""
+            "imagename"        ""
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "de_grind"
+        {
+            "original"
+            {
+                "t_arms"        "models/weapons/t_arms.mdl"
+                "t_models"
+                {
+                    "tm_phoenix"        ""
+                    "tm_phoenix_variantA"        ""
+                    "tm_phoenix_variantB"        ""
+                    "tm_phoenix_variantC"        ""
+                    "tm_phoenix_variantD"        ""
+                }
+                "ct_arms"        "models/weapons/ct_arms_fbi.mdl"
+                "ct_models"
+                {
+                    "ctm_fbi"        ""
+                    "ctm_fbi_variantA"        ""
+                    "ctm_fbi_variantE"        ""
+                    "ctm_fbi_variantC"        ""
+                    "ctm_fbi_variantD"        ""
+                }
+            }
+            "name"        "de_grind"
+            "nameID"        "#SFUI_Map_de_grind"
+            "imagename"        "map-grind-overall"
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+        "de_calavera"
+        {
+            "name"        "de_calavera"
+            "nameID"        ""
+            "imagename"        ""
+            "default_game_type"        "0"
+            "default_game_mode"        "0"
+            "t_arms"        "models/weapons/t_arms.mdl"
+            "t_models"
+            {
+                "tm_leet_variantA"        ""
+            }
+            "ct_arms"        "models/weapons/ct_arms.mdl"
+            "ct_models"
+            {
+                "ctm_st6"        ""
+            }
+        }
+    }
+}
