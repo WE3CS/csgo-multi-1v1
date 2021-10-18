@@ -75,7 +75,7 @@
 	"ArenaClanTag"
 	{
 		"#format"	"{1:d}"
-		"en"		"Arena {1}"
+		"en"		"竞技场 {1}"
 	}
 	"Disabled"
 	{
