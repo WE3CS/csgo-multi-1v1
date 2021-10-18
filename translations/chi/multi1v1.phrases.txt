@@ -6,7 +6,7 @@
 	}
 	"NoOpponentHint"
 	{
-		"chi"		"<font size='22' color='#FF0000'>你没有对手。</font>"
+		"chi"		"<font color='#ff0000'>你没有对手。</font>"
 	}
 	"FacingOff"
 	{
@@ -42,7 +42,7 @@
 	}
 	"OpponentLeftHint"
 	{
-		"chi"		"<font size='22' color='#00FF00'>你的对手离开了。</font>"
+		"chi"		"你的对手离开了。"
 	}
 	"HideStats"
 	{
