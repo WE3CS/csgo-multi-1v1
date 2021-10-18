@@ -1,0 +1,21 @@
+"Phrases"
+{
+	"OneTapRound"
+	{
+		"en"			"One Tap round"
+        "cze"			"One Tap kolo"
+		"chi"			"一发入魂(700$大狙)"
+	}
+    "ReloadDisabled"
+	{
+		"en"			"Reload is not allowed in this round!"
+        "cze"			"Nabíjení je zakázáno při tomto kole!"
+		"chi"			"不允许换弹"
+	}
+    "OneTapRoundChat"
+	{
+		"en"			"You are currently playing {green}One Tap {default}round!"
+        "cze"			"Právě hraješ {green}One Tap {default}kolo!"
+		"chi"			"当前是 {green}一发入魂(700$大狙) {default}对局!"
+	}
+}
